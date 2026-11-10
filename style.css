@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #f5f6f9;
+}
+
+header{
+    background-color: #7929da;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    margin: 0px 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.img-teto{
+    height: 100px;
+    width: 200px;
+}
+
+nav a{
+    color: #fff;
+}
+
+.apresentaçao{
+    display: flex;
+    gap: 60px;
+    margin: 80px 30px;
+    flex-direction: column;
+}
+
+.h1-apresentaçao{
+    color: #00bcd4;
+}
+
+.button-apresentaçao{
+    padding: 20px;
+    background-color: #8e3af5;
+    width: 15%;
+    color: aliceblue;
+    border: none;
+    border-radius: 15px;
+}
+
+.caixa-isolada{
+    background-color: #fff;
+    color: #212121;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 30px;
+    border-top: 15px solid #8e3af5;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.h1-caixas{
+    color: #8e3af5;
+    margin-bottom: 20px;
+}
+
+.button-caixas{
+    padding: 20px;
+    background-color: #8e3af5;
+    width: 15%;
+    color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+footer{
+    padding: 50px;
+    background-color: #4A148C;
+    color: #fff;
+    text-align: center;
+}
+
+.img-icons{
+    margin: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nav-footer{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.h1-footer{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.box-javaScript{
+    background-color: #fff;
+    color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 130px 560px;
+    padding: 50px;
+    border-radius: 30px;
+    border-top: 15px solid #8e3af5;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.h1-javaScript{
+    color: #8e3af5;
+    margin-bottom: 50px;
+}
+
+input{
+    padding: 10px;
+    width: 85%;
+    border-color: #8e3af5;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.box-javaScript button{
+    background-color: #8e3af5;
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+}
+
+ul{
+    padding: 20px;
+    background-color: rgb(213, 212, 212);
+    color: #8e3af5;
+    margin-top: 40px;
+    width: 85%;
+    border-radius: 15px;
+}
